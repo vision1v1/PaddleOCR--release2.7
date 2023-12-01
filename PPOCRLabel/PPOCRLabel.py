@@ -109,7 +109,7 @@ class MainWindow(QMainWindow):
 
         if os.path.exists('./data/paddle.png'):
             result = self.ocr.ocr('./data/paddle.png', cls=True, det=True)
-            result = self.table_ocr('./data/paddle.png', return_ocr_result_in_table=True)
+            # result = self.table_ocr('./data/paddle.png', return_ocr_result_in_table=True)
 
         # For loading all image under a directory
         self.mImgList = []
